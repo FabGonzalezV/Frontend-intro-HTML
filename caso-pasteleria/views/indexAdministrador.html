@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>DashBord</title>
+</head>
+<body>
+    <header>
+        <div class="opciones-menu">
+            <div id="marca">
+                <img src="/assets/imgs/logos/marca.png" alt="Marca" width="128">
+            </div>
+            <div >
+                <span>Pedidos</span>
+
+            </div>
+            <div><span>Ventas</span></div>
+            <div><span>Iniciar</span></div>
+            <div><span>Salir</span></div>
+        </div>
+
+        <main>
+            
+            <div >
+              
+                <table id="tabla-sabores">
+                     
+                    <colgroup span="5" class="columns"></colgroup>
+                    <tr>
+                        <th>Inventario restante</th>
+                         
+                      </tr>
+                    <tr>
+                      <th>Sabor</th>
+                      <th>Normal</th>
+                      <th>Simple</th>
+                      <th>Especial</th>
+                    </tr>
+                    <tr>
+                      <td>Chocolate</td>
+                      <td>Fresa</td>
+                      <td>Nata</td>
+                      <td>Frutal</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>6</td>
+                      <td>5</td>
+                      <td>10</td>
+                    </tr>
+                  </table>
+                  <table id="tabla-Adornos">
+                    <colgroup span="4" class="columns"></colgroup>
+                    <tr>
+                      <th>Figura</th>
+                      <th>Detalle</th>
+                      <th>Colores</th>
+                      <th>Tamaño</th>
+                    </tr>
+                    <tr>
+                      <td>Espiral</td>
+                      <td>flores</td>
+                      <td>Azul</td>
+                      <td>chico</td>
+                    </tr>
+                    <tr>
+                        <td>Circulos</td>
+                        <td>Personajes</td>
+                        <td>variado</td>
+                        <td>grande</td>
+                      </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>5</td>
+                      <td>7</td>
+                      <td>1</td>
+                    </tr>
+                  </table>
+            </div>
+            <div id="div-form">
+                <div><br><br>
+                    <span>Datos del pedido</span>
+                    <form action="none" id="formulario">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" placeholder="Juan">
+                        <br><br>
+                        <label for="tel">Teléfono</label>
+                        <input type="tel" name="tel" id="tel" placeholder="558665434">
+                        <br><br>
+                        <label for="imail">Correo</label>
+                        <input type="email" name="imail" id="imail" placeholder="juan@.com">
+                        <br><br>
+                        <label for="sabores">Sabores</label>
+                        <select name="sabores">
+                            <option value="value1">Nata</option>
+                            <option value="value2" selected>Chocolate</option>
+                            <option value="value3">Fresa</option>
+                          </select>
+                          <br><br>
+                          <label for="adornos">Sabores</label>
+                        <select name="adornos">
+                            <option value="value1">Flores</option>
+                            <option value="value2" selected>Figuras</option>
+                            <option value="value3">Imagenes</option>
+                          </select>
+                        <br><br>
+                         <span>Descripcción</span><br>
+
+                        <textarea name="descp" id="descp" cols="50" rows="10" placeholder="Pastel de chocolate con rosas azules"></textarea>
+                    <input type="button" value="Atender">
+                    </form>
+                </div>
+               
+
+            </div>
+
+            
+        </main>
+        <footer>
+            <div><span>Derechos reservados : Armando Fabián Gonzalez Valentín</span></div>
+        </footer>
+        
+    </header>
+</body>
+</html>
